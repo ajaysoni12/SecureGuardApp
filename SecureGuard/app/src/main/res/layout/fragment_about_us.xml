@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.AboutUsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="#B8B8B8"
+            android:paddingTop="5dp"
+            android:text="Contact Us: "
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:id="@+id/imgLinkedln"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="0.8"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ic_linkedln" />
+
+            <ImageView
+                android:id="@+id/imgInstagram"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="0.8"
+                android:contentDescription="@string/app_name"
+                android:padding="15dp"
+                android:src="@drawable/ic_instagram" />
+
+            <ImageView
+                android:id="@+id/imgGithub"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="0.8"
+                android:contentDescription="@string/app_name"
+                android:padding="13dp"
+                android:src="@drawable/ic_github" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="#B8B8B8"
+            android:paddingTop="5dp"
+            android:text="My Email ID"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:text="ritscsajaysoni@gmail.com"
+            android:textAlignment="center"
+            android:textColor="#003B55"
+            android:textSize="25sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="#B8B8B8"
+            android:paddingTop="5dp"
+            android:text="My Coding Profile"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtGithub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:text="https://github.com/ajaysoni12"
+            android:textAlignment="center"
+            android:textColor="#003B55"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/txtGeeksForGeeks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:text="https://www.geeksforgeeks.org/user/ajay_soni123/"
+            android:textAlignment="center"
+            android:textColor="#003B55"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/txtLeetCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:text="https://leetcode.com/u/ajay_soni123/"
+            android:textAlignment="center"
+            android:textColor="#003B55"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/txtCodechef"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:text="https://www.codechef.com/users/ajay_soni123"
+            android:textAlignment="center"
+            android:textColor="#003B55"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="#B8B8B8"
+            android:paddingTop="5dp"
+            android:text="About Me: "
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtServiceProvide"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="#9CF69A"
+            android:padding="5dp"
+            android:text="Name: Ajay Soni\n\nMy Skills: C, C++, Java, DSA and Android App Development\n\nConnect with me!! Happy Coding!!"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+
+</ScrollView>
