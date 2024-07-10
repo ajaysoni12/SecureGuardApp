@@ -18,3 +18,9 @@
 
 ## Apk Link: 
 https://drive.google.com/file/d/1CqIo44hx_tpAB9El9wPsxNOeH49d-Bu8/view?usp=drive_link
+
+## Installation
+1. Download the APK from the above link <br/>
+2. Enable Installation from Unknown Sources: Go to the "Settings" on your Android device. Navigate to the "Security" or "Privacy" section. Look for the option called "Unknown sources" or "Install unknown apps." Enable installation from unknown sources by toggling the switch to the "On" position.  <br/>
+3. Install the APK: Tap on the APK file to start the installation process. You may be prompted to confirm the installation. Tap "Install" to proceed. Wait for the installation to complete. Once finished, you will see an "App installed" or similar message.  <br/>
+4. Launch the App: After the installation is complete, you can find the Secure Guard App icon in your app drawer or on your home screen. Tap on the app icon to launch the Secure Guard App.  <br/>
