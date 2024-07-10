@@ -12,9 +12,9 @@
 **6. Delete All Messages:** Easily delete all messages from the app to maintain privacy and security.<br/>
 
 ## Tech Stack
-**Java:** Core programming language used for app development.
-**XML:** Used for designing the user interface.
-**RoomDB:** Database library for local data storage, ensuring efficient and easy handling of encrypted and decrypted texts.
+**Java:** Core programming language used for app development. <br/>
+**XML:** Used for designing the user interface.<br/>
+**RoomDB:** Database library for local data storage, ensuring efficient and easy handling of encrypted and decrypted texts.<br/>
 
 ## Apk Link: 
 https://drive.google.com/file/d/1CqIo44hx_tpAB9El9wPsxNOeH49d-Bu8/view?usp=drive_link
